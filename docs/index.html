@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ПрофиСервис | Ремонт техники в Москве с гарантией</title>
+    <meta name="description" content="Профессиональный ремонт бытовой техники. Выезд мастера за 2 часа. Бесплатная диагностика. Гарантия 1 год.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">
+                    <span class="logo-icon">🔧</span>
+                    ПрофиСервис
+                </div>
+                <div class="nav-links">
+                    <a href="#services">Услуги</a>
+                    <a href="#advantages">Преимущества</a>
+                    <a href="#reviews">Отзывы</a>
+                    <a href="#contact">Контакты</a>
+                </div>
+                <div class="nav-phone">
+                    <a href="tel:+79991234567" class="phone-link">
+                        <span class="phone-icon">📞</span>
+                        +7 (999) 123-45-67
+                    </a>
+                </div>
+                <div class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">⚡ Выезд мастера за 2 часа</div>
+                <h1>Профессиональный ремонт бытовой техники <span class="highlight">с гарантией 1 год</span></h1>
+                <p class="hero-subtitle">Бесплатная диагностика • Оригинальные запчасти • Опытные мастера</p>
+                
+                <div class="hero-features">
+                    <div class="feature">
+                        <div class="feature-icon">🚗</div>
+                        <div class="feature-text">
+                            <strong>Выезд за 120 минут</strong>
+                            <span>по Москве и области</span>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">💰</div>
+                        <div class="feature-text">
+                            <strong>Бесплатная диагностика</strong>
+                            <span>при ремонте у нас</span>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">🛡️</div>
+                        <div class="feature-text">
+                            <strong>Гарантия 1 год</strong>
+                            <span>на все работы и запчасти</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-actions">
+                    <a href="tel:+79991234567" class="btn btn-primary btn-large">
+                        <span class="btn-icon">📞</span>
+                        Вызвать мастера
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span class="btn-icon">📝</span>
+                        Бесплатная консультация
+                    </a>
+                </div>
+
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">лет опыта</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">5000+</div>
+                        <div class="stat-label">довольных клиентов</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">98%</div>
+                        <div class="stat-label">положительных отзывов</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Наши услуги</h2>
+            <p class="section-subtitle">Ремонт любой сложности с гарантией качества</p>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">❄️</div>
+                    <h3>Ремонт холодильников</h3>
+                    <p class="service-price">от 1500₽</p>
+                    <ul class="service-list">
+                        <li>Замена компрессора</li>
+                        <li>Устранение утечки фреона</li>
+                        <li>Ремонт электронного модуля</li>
+                        <li>Замена уплотнителей</li>
+                        <li>Чистка дренажной системы</li>
+                    </ul>
+                    <div class="service-time">
+                        <span class="time-icon">⏱️</span>
+                        Время ремонта: 1-3 часа
+                    </div>
+                    <button class="btn btn-outline" data-service="Ремонт холодильников">Вызвать мастера</button>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🧼</div>
+                    <h3>Ремонт стиральных машин</h3>
+                    <p class="service-price">от 1200₽</p>
+                    <ul class="service-list">
+                        <li>Замена подшипников</li>
+                        <li>Ремонт двигателя</li>
+                        <li>Чистка фильтров</li>
+                        <li>Замена помпы</li>
+                        <li>Ремонт электронного блока</li>
+                    </ul>
+                    <div class="service-time">
+                        <span class="time-icon">⏱️</span>
+                        Время ремонта: 1-2 часа
+                    </div>
+                    <button class="btn btn-outline" data-service="Ремонт стиральных машин">Вызвать мастера</button>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🍽️</div>
+                    <h3>Ремонт посудомоечных машин</h3>
+                    <p class="service-price">от 1300₽</p>
+                    <ul class="service-list">
+                        <li>Замена циркуляционного насоса</li>
+                        <li>Ремонт ТЭНа</li>
+                        <li>Прочистка форсунок</li>
+                        <li>Замена уплотнителей</li>
+                        <li>Настройка программ</li>
+                    </ul>
+                    <div class="service-time">
+                        <span class="time-icon">⏱️</span>
+                        Время ремонта: 1-2 часа
+                    </div>
+                    <button class="btn btn-outline" data-service="Ремонт посудомоечных машин">Вызвать мастера</button>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🔥</div>
+                    <h3>Ремонт духовых шкафов</h3>
+                    <p class="service-price">от 1100₽</p>
+                    <ul class="service-list">
+                        <li>Замена нагревательных элементов</li>
+                        <li>Ремонт электронного управления</li>
+                        <li>Настройка температурного режима</li>
+                        <li>Замена уплотнителей двери</li>
+                        <li>Чистка и обслуживание</li>
+                    </ul>
+                    <div class="service-time">
+                        <span class="time-icon">⏱️</span>
+                        Время ремонта: 1-2 часа
+                    </div>
+                    <button class="btn btn-outline" data-service="Ремонт духовых шкафов">Вызвать мастера</button>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">📺</div>
+                    <h3>Ремонт телевизоров</h3>
+                    <p class="service-price">от 2000₽</p>
+                    <ul class="service-list">
+                        <li>Замена матрицы</li>
+                        <li>Ремонт блока питания</li>
+                        <li>Настройка Smart TV</li>
+                        <li>Чистка от пыли</li>
+                        <li>Обновление прошивки</li>
+                    </ul>
+                    <div class="service-time">
+                        <span class="time-icon">⏱️</span>
+                        Время ремонта: 2-4 часа
+                    </div>
+                    <button class="btn btn-outline" data-service="Ремонт телевизоров">Вызвать мастера</button>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3>Ремонт компьютеров</h3>
+                    <p class="service-price">от 1000₽</p>
+                    <ul class="service-list">
+                        <li>Замена комплектующих</li>
+                        <li>Чистка от пыли</li>
+                        <li>Установка ОС и программ</li>
+                        <li>Удаление вирусов</li>
+                        <li>Настройка сети</li>
+                    </ul>
+                    <div class="service-time">
+                        <span class="time-icon">⏱️</span>
+                        Время ремонта: 1-3 часа
+                    </div>
+                    <button class="btn btn-outline" data-service="Ремонт компьютеров">Вызвать мастера</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advantages -->
+    <section id="advantages" class="advantages">
+        <div class="container">
+            <h2>Почему выбирают нас</h2>
+            <p class="section-subtitle">10 причин доверить ремонт нашей компании</p>
+
+            <div class="advantages-grid">
+                <div class="advantage-card">
+                    <div class="advantage-icon">🎯</div>
+                    <h3>Точно в срок</h3>
+                    <p>Мастер приезжает в течение 2 часов после заявки. Мы ценим ваше время</p>
+                </div>
+
+                <div class="advantage-card">
+                    <div class="advantage-icon">🔧</div>
+                    <h3>Опытные мастера</h3>
+                    <p>Средний стаж работы наших специалистов - 8 лет. Все мастера проходят сертификацию</p>
+                </div>
+
+                <div class="advantage-card">
+                    <div class="advantage-icon">💎</div>
+                    <h3>Оригинальные запчасти</h3>
+                    <p>Используем только качественные комплектующие от проверенных поставщиков</p>
+                </div>
+
+                <div class="advantage-card">
+                    <div class="advantage-icon">🛡️</div>
+                    <h3>Гарантия 1 год</h3>
+                    <p>Даем гарантию на все виды работ и запчасти. Ваша техника в надежных руках</p>
+                </div>
+
+                <div class="advantage-card">
+                    <div class="advantage-icon">💰</div>
+                    <h3>Прозрачные цены</h3>
+                    <p>Фиксированная стоимость в смете. Никаких скрытых платежей и доплат</p>
+                </div>
+
+                <div class="advantage-card">
+                    <div class="advantage-icon">📋</div>
+                    <h3>Бесплатная диагностика</h3>
+                    <p>Точная диагностика неисправности перед началом ремонта</p>
+                </div>
+
+                <div class="advantage-card">
+                    <div class="advantage-icon">🚗</div>
+                    <h3>Выезд по Москве и области</h3>
+                    <p>Работаем по всему городу и ближайшему подмосковью</p>
+                </div>
+
+                <div class="advantage-card">
+                    <div class="advantage-icon">🕒</div>
+                    <h3>Работаем 24/7</h3>
+                    <p>Принимаем заявки круглосуточно, включая выходные и праздники</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How We Work -->
+    <section class="process">
+        <div class="container">
+            <h2>Как мы работаем</h2>
+            <p class="section-subtitle">Всего 4 простых шага до исправной техники</p>
+
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Заявка</h3>
+                        <p>Оставляете заявку на сайте или по телефону</p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Выезд мастера</h3>
+                        <p>Мастер приезжает в течение 2 часов с необходимым оборудованием</p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Диагностика и ремонт</h3>
+                        <p>Бесплатная диагностика и качественный ремонт на месте</p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Гарантия</h3>
+                        <p>Вы принимаете работу и получаете гарантию 1 год</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews -->
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <h2>Отзывы клиентов</h2>
+            <p class="section-subtitle">Что говорят о нашей работе</p>
+
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-avatar">А</div>
+                        <div class="review-author">
+                            <h4>Анна Петрова</h4>
+                            <div class="review-rating">★★★★★</div>
+                        </div>
+                    </div>
+                    <p class="review-text">"Вызывала мастера для ремонта холодильника. Приехал через 1,5 часа, быстро нашел причину и починил. Цена соответствовала озвученной по телефону. Очень довольна!"</p>
+                    <div class="review-date">15 января 2025</div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-avatar">М</div>
+                        <div class="review-author">
+                            <h4>Михаил Иванов</h4>
+                            <div class="review-rating">★★★★★</div>
+                        </div>
+                    </div>
+                    <p class="review-text">"Сломалась стиральная машина, думал придется покупать новую. Мастер приехал, заменил подшипники, и она снова как новая. Спасибо за качественную работу и честные цены!"</p>
+                    <div class="review-date">8 января 2025</div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-avatar">Е</div>
+                        <div class="review-author">
+                            <h4>Елена Смирнова</h4>
+                            <div class="review-rating">★★★★★</div>
+                        </div>
+                    </div>
+                    <p class="review-text">"Очень профессиональные мастера! Починили посудомойку, все объяснили, дали гарантию. Теперь только к вам буду обращаться и всем рекомендую!"</p>
+                    <div class="review-date">3 января 2025</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+        <div class="container">
+            <h2>Частые вопросы</h2>
+            <p class="section-subtitle">Ответы на популярные вопросы клиентов</p>
+
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Сколько стоит выезд мастера?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Выезд мастера и диагностика абсолютно бесплатны, если вы соглашаетесь на ремонт. В случае отказа от ремонта - 500 рублей.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Какие районы вы обслуживаете?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Мы работаем по всей Москве и ближайшему Подмосковью (до 30 км от МКАД).</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Сколько длится ремонт?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Большинство ремонтов мы выполняем за 1-3 часа непосредственно у вас дома. Сложные случаи могут потребовать 2-3 дня.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Даете ли вы гарантию на работу?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Да, мы предоставляем гарантию 1 год на все виды работ и установленные запчасти.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Свяжитесь с нами</h2>
+            <p class="section-subtitle">Мы готовы помочь с ремонтом вашей техники</p>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Контактная информация</h3>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-details">
+                            <strong>Телефон</strong>
+                            <a href="tel:+79991234567">+7 (999) 123-45-67</a>
+                            <span>Ежедневно с 8:00 до 22:00</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-details">
+                            <strong>Email</strong>
+                            <a href="mailto:info@profiservice.ru">info@profiservice.ru</a>
+                            <span>Отвечаем в течение часа</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <strong>Адрес</strong>
+                            <span>г. Москва, ул. Примерная, 123</span>
+                            <span>Работаем по всему городу</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">🕒</div>
+                        <div class="contact-details">
+                            <strong>График работы</strong>
+                            <span>Пн-Вс: 8:00-22:00</span>
+                            <span>Срочные вызовы: 24/7</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-social">
+                        <h4>Мы в соцсетях:</h4>
+                        <div class="social-links">
+                            <a href="#" class="social-link">VK</a>
+                            <a href="#" class="social-link">Telegram</a>
+                            <a href="#" class="social-link">WhatsApp</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <div class="form-card">
+                        <h3>Оставьте заявку</h3>
+                        <p>Мастер свяжется с вами в течение 15 минут</p>
+
+                        <form class="contact-form" id="serviceForm">
+                            <div class="form-group">
+                                <input type="text" name="name" placeholder="Ваше имя" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" name="phone" placeholder="Ваш телефон" required>
+                            </div>
+                            <div class="form-group">
+                                <select name="service" required>
+                                    <option value="">Выберите услугу</option>
+                                    <option value="fridge">Ремонт холодильников</option>
+                                    <option value="washer">Ремонт стиральных машин</option>
+                                    <option value="dishwasher">Ремонт посудомоек</option>
+                                    <option value="oven">Ремонт духовых шкафов</option>
+                                    <option value="tv">Ремонт телевизоров</option>
+                                    <option value="computer">Ремонт компьютеров</option>
+                                    <option value="other">Другое</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <textarea name="message" placeholder="Опишите проблему..." rows="4"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-large">
+                                <span class="btn-icon">🚗</span>
+                                Вызвать мастера
+                            </button>
+                        </form>
+
+                        <div class="form-success" id="formSuccess" style="display: none;">
+                            <div class="success-icon">✅</div>
+                            <h4>Заявка отправлена!</h4>
+                            <p>Мастер свяжется с вами в течение 15 минут</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner">
+        <div class="container">
+            <div class="cta-content">
+                <h3>Нужен срочный ремонт?</h3>
+                <p>Мастер приедет в течение 2 часов и устранит неисправность</p>
+                <a href="tel:+79991234567" class="btn btn-accent btn-large">
+                    <span class="btn-icon">📞</span>
+                    Срочный вызов мастера
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <span class="logo-icon">🔧</span>
+                        ПрофиСервис
+                    </div>
+                    <p>Профессиональный ремонт бытовой техники в Москве и области с 2015 года</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Услуги</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services">Ремонт холодильников</a></li>
+                        <li><a href="#services">Ремонт стиральных машин</a></li>
+                        <li><a href="#services">Ремонт посудомоек</a></li>
+                        <li><a href="#services">Ремонт духовых шкафов</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Контакты</h4>
+                    <div class="footer-contacts">
+                        <a href="tel:+79991234567">+7 (999) 123-45-67</a>
+                        <a href="mailto:info@profiservice.ru">info@profiservice.ru</a>
+                        <span>Москва, ул. Примерная, 123</span>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>График работы</h4>
+                    <div class="footer-schedule">
+                        <p>Пн-Вс: 8:00-22:00</p>
+                        <p>Срочные вызовы: 24/7</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 ПрофиСервис. Все права защищены.</p>
+                <div class="footer-payments">
+                    <span>Принимаем к оплате:</span>
+                    <div class="payment-methods">
+                        <span>💳</span>
+                        <span>📱</span>
+                        <span>🏦</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float -->
+   
+    <!-- Scroll to Top -->
+    <button id="scrollToTop" class="scroll-to-top">
+        <span>↑</span>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
